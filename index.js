@@ -56,7 +56,6 @@ flag.style.backgroundColor = veryLightGray;
 //filter
 
 const eve = document.querySelectorAll("#f1");
-
 eve.forEach((element) => {
   element.addEventListener("click", action);
 });
