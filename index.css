@@ -38,9 +38,7 @@
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
 }
-.dropdown-menu {
-  padding-right: 6.9em;
-}
+
 img {
   width: 300px;
   height: 150px;
@@ -48,6 +46,7 @@ img {
 body {
   overflow-x: hidden;
 }
+
 #home {
   position: fixed;
   left: 0;
@@ -82,9 +81,5 @@ body {
   }
   .btn {
     height: 3.5em;
-  }
-
-  #flag {
-    width: 100%;
   }
 }
