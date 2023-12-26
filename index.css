@@ -43,14 +43,22 @@
 }
 img {
   width: 300px;
-  height:150px;
+  height: 150px;
 }
 body {
   overflow-x: hidden;
 }
 #home {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  
+  background-color: var(--white);
+
   box-shadow: 0px 0px 10px rgb(182, 179, 179);
 }
+
 #search_bar {
   box-shadow: 0px 0px 10px rgb(182, 179, 179);
 }
@@ -62,7 +70,7 @@ body {
     height: 3.5em;
     width: 35em;
   }
-  
+
   .search_icon {
     height: 3.5em;
     align-content: center;
@@ -76,8 +84,4 @@ body {
   #flag {
     width: 100%;
   }
-}
-
-@media screen and (min-width: 1024px){
-  
 }
